@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    text-align: left;
+
+    padding: 10px;
+    margin: 5px;
+}
+
+h1 > span {
+    color: skyblue;
+}
+
+h2 {
+    color: white;
+    background-color: rebeccapurple;
+    font-style: italic;
+    text-align: center;
+
+    padding: 10px;
+    margin: 5px;
+}
+
+h3 {
+    color: blueviolet;
+    background-color: lightblue;
+    text-decoration: underline;
+    text-align: right;
+
+    padding: 10px;
+    margin: 5px;
+}
