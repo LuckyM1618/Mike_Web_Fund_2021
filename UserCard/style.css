@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    margin: 0px auto;
+    padding: 100px 0px;
+    height: 900px;
+    width: 720px;
+}
+
+#user_card {
+    height: 325px;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    border: 2px solid gray;
+    box-sizing: border-box;
+}
+
+#uc_header {
+    height: 100px;
+    width: 100%;
+    background-color: #17a2b8;
+}
+
+#uc_body {
+    height: 225px;
+    width: 100%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 55px 0px 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#profile_pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: blue;
+    top: 50px;
+    left: 30px;
+}
+
+#uc_body > h1, #uc_body > p {
+    margin: 0px 0px 10px 0px;
+}
+
+.multi_item_line {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 0px 10px 0px;
+}
+
+#loc_pin {
+    height: 15px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0px 10px 0px 0px;
+}
+
+#gear {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 0px 10px 0px 0px;
+}
