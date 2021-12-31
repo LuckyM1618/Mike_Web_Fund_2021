@@ -1,0 +1,199 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    height: 950px;
+    width: 1080px;
+    background-color: green;
+    margin: 0px auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#nav_bar {
+    height: 75px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+#main_body {
+    height: 875px;
+    width: 100%;
+    background-color: gray;
+    box-sizing: border-box;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#left_content {
+    height: 800px;
+    width: 600px;
+    background-color: red;
+}
+
+#user_card {
+    height: 325px;
+    width: 100%;
+    margin: 0px 0px 25px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+#uc_header {
+    height: 100px;
+    width: 100%;
+    background-color: #17a2b8;
+}
+
+#uc_body {
+    height: 225px;
+    width: 100%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 55px 0px 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#profile_pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: blue;
+    top: 50px;
+    left: 30px;
+}
+
+#uc_body > h1, #uc_body > p {
+    margin: 0px 0px 10px 0px;
+}
+
+.multi_item_line {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 0px 10px 0px;
+}
+
+#loc_pin {
+    height: 15px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0px 10px 0px 0px;
+}
+
+#gear {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 0px 10px 0px 0px;
+}
+
+#education {
+    height: 300px;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+#edu_header {
+    height: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: darkgray;
+}
+
+#edu_body {
+    height: 240px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+#right_content {
+    height: 800px;
+    width: 400px;
+    background-color: blue;
+}
+
+#conn_req {
+    height: 250px;
+    width: 100%;
+    margin: 0px 0px 25px 0px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#conn_req_header {
+    height: 70px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: darkgray;
+}
+
+/* need to resolve body crossing border on bottom */
+
+#conn_req_body {
+    height: 180px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+#your_conns {
+    height: 350px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#your_conns_header {
+    height: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: darkgray;
+}
+
+#your_conns_body {
+    height: 240px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+#your_conns_footer {
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: gray;
+}
